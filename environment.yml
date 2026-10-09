@@ -1,0 +1,15 @@
+name: gta
+channels:
+  - jetbrains
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - jupyterlab
+  - kotlin-jupyter-kernel
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - seaborn
+  - networkx
