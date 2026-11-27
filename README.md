@@ -1,47 +1,16 @@
-# **Grupo de Tecnologias Assistivas (GTA)**
+# Estudos Gerais — Grupo de Tecnologias Assistivas (GTA)
 
-[![Status](https://img.shields.io/badge/Status-Em_Desenvolvimento-yellow.svg)]()
-[![Curso](https://img.shields.io/badge/Curso-Bacharelado_em_TI-blue.svg)]()
+Este repositório reúne o ambiente computacional base (`environment.yml`) e o histórico inicial de estudos do **Grupo de Tecnologias Assistivas (GTA)** do IMD/UFRN.
 
-> Bem-vindo(a) ao repositório oficial do **GTA**! Somos um grupo focado na criação, desenvolvimento e pesquisa de ferramentas assistivas voltadas para a autonomia e inclusão social através da tecnologia.
+## Onde ficam os estudos de cada projeto
 
-# Este repositorio será dedicado a parte de treinamento e estudos das tecnlogias para o desenvolvimento do aplicativo
+Para dar mais visibilidade e manter cada projeto organizado de forma independente, os estudos específicos agora ficam nos respectivos repositórios públicos:
 
+- **Projeto 1 — Accessway (Navegação Indoor):** [grupo-de-tecnologias-assistivas/accessway](https://github.com/grupo-de-tecnologias-assistivas/accessway/tree/main/docs)
+- **Projeto 2 — Leitura com a Própria Voz:** [grupo-de-tecnologias-assistivas/leitura-propria-voz](https://github.com/grupo-de-tecnologias-assistivas/leitura-propria-voz/tree/main/estudos)
 
-## Sobre o GTA
+## Ambiente Conda compartilhado (`environment.yml`)
 
-O **GTA (Grupo de Tecnologias Assistivas)** é formado por professores e alunos do **Bacharelado em Tecnologia da Informação (BTI)** do **Instituto Metrópole Digital (IMD)**. Nascemos da motivação de unir o processo de aprendizado acadêmico ao desenvolvimento de soluções práticas para problemas reais de acessibilidade.
+O arquivo [`environment.yml`](environment.yml) define o ambiente `gta` com Python 3.11, JupyterLab, Kotlin Jupyter Kernel e bibliotecas científicas (`numpy`, `scipy`, `pandas`, `matplotlib`, `seaborn`, `networkx`).
 
-O grupo funciona como um laboratório prático de estudos e desenvolvimento, no qual aplicamos conceitos de engenharia de software, redes, algoritmos e design inclusivo para construir ferramentas de impacto social.
-
----
-## Objetivo Geral
-
-Pesquisar e projetar soluções tecnológicas assistivas acessíveis para promover a independência, mobilidade e inclusão de pessoas com deficiência, consolidando a formação prática dos estudantes em desenvolvimento de software e inovação tecnológica.
-
----
-
-### Primeiro Projeto: *GPS Indoor para Pessoas com Deficiência Visual*
-
-Nosso projeto inicial, nomeado ***Accessway***, aborda um dos maiores desafios de acessibilidade espacial: **a navegação em ambientes fechados (indoor)**, onde os sinais tradicionais de GPS de satélite não funcionam.
-
-Estamos desenvolvendo um aplicativo móvel de orientação indoor voltado para pessoas com baixa visão ou cegueira, atuando como um guia em tempo real dentro de prédios, edifícios acadêmicos e locais públicos.
-
-Para isso, estamos trabalhando com:
-* **Localização por trilateração Wi-Fi:** Utilização dos pontos de acesso (roteadores) Wi-Fi do próprio prédio e do indicador de força de sinal (RSSI) para estimar a posição exata do usuário no ambiente.
-
-* **Modelo de busca e mapeamento:** Algoritmos de busca em grafos aplicados sobre a planta digital do prédio para traçar rotas seguras, acessíveis e otimizadas.
-
-* **Interface assistiva de voz:** Sistema de comunicação auditiva que traduz o posicionamento em orientações de voz claras, contextuais e orientadas em tempo real.
-
----
-
-## Estágio Atual
-
-Como o projeto está inserido na nossa fase de formação e aprendizado no BTI, a equipe está focada nas seguintes etapas:
-- [ ] Mapeamento do Ambiente e Modelagem de Dados;
-- [ ] Motor de Posicionamento;
-- [ ] Algoritmos de Roteamento e Busca;
-- [ ] Interface de Voz e Acessibilidade;
-- [ ] Arquitetura de Software e Armazenamento;
-- [ ] Testes, Calibração e Validação em Campo.
+Para mais informações sobre o fluxo de trabalho da organização, consulte o [Guia de Contribuição do GTA](https://github.com/grupo-de-tecnologias-assistivas/.github/blob/main/CONTRIBUTING.md).
